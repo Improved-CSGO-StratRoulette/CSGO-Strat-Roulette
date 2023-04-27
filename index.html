@@ -54,6 +54,9 @@
         <button type="button" onclick="strat('t')">T Strat</button>
     </div>
 
+    <div style="display:none">
+        <audio id="audio" src="niks.mp3"></audio>
+     </div>
     <script type="text/javascript" src="strats.json"></script>
 	<script>
         function strat(team)
@@ -147,6 +150,31 @@
 
             return desc;
         }
+
+
+        var checked = false;
+
+        document.addEventListener("click", Meme);
+
+
+        function Meme() {
+            console.log("click");
+            var audio = document.getElementById("audio");
+            if(checked == false){
+                checked = true;
+               
+                audio.volume = 0;
+                audio.play();
+
+            }else if(checked == true){
+                audio.volume = audio.volume + 0.002;
+                console.log(audio.volume);
+            }
+           
+
+        }
+
+
     </script>
 
 </body>
