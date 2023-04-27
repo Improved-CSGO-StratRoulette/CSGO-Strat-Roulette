@@ -18,6 +18,11 @@ data = `{
 
         },
         {
+            "name": "OBJECTIVE KILL ROBBE",
+            "desc": "Elke speler moet Robbe teamkillen vanaf de timer 1:00 slaat. Robbe moet zorgen dat hij overleefd."
+
+        },
+        {
             "name": "1 2 3 Piano",
             "desc": "1 iemand random mag om de 30sec zeggen dat 1 persoon niet meer mag wandelen of lopen voor 10 sec."
 
